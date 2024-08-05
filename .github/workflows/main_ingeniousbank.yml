@@ -25,6 +25,7 @@ jobs:
         run: |
           npm install --legacy-peer-deps
           npm install yarn@latest -g
+          yarn
           npm run build --if-present
           npm run test --if-present
 
